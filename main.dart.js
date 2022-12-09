@@ -28534,7 +28534,6 @@ aJO:function aJO(){},
 tM:function tM(a){this.a=a},
 a4n:function a4n(a,b,c){var _=this
 _.d=a
-_.e=""
 _.w=b
 _.a=null
 _.b=c
@@ -98580,13 +98579,13 @@ A.a4n.prototype={
 v(a){var s=this,r=null,q=A.x(a).ax,p=A.x(a).p3.e.bt(q.cx),o=A.x(a).p3.r,n=s.d,m=t.p
 return A.eP(r,new A.r4(new A.td(A.a([A.a7("Crear cuenta",r,r,r,r,r,p,r,r),A.Dr(r,A.aZ(A.a([A.fK(r,"example@gmail.com",B.hg,r,B.a4C,B.cx,"Email",r,new A.aFk(s),A.aKb()),A.fK(r,"",B.dv,r,B.a4E,B.ir,"Nombre completo",r,new A.aFl(s),A.aOT()),A.fK(r,"73155648",B.hh,r,B.a4G,B.iq,"Telefono",r,new A.aFm(s),A.aOU()),A.a7("Genero",r,r,r,r,r,o,r,r),new A.Dw($.aLL(),B.a4D),A.a7("Fecha de nacimiento",r,r,r,r,r,o,r,r),B.a_,new A.CB($.aPY(),B.a4A),A.rr(new A.aFn(q)),B.aW,A.bJ(A.a([B.Iy,B.og,A.cG(new A.PK(n,s.w,r),1)],m),B.o,B.eP,B.m)],m),B.o,B.r,B.m),n)],m),B.dq,B.h0,r),r),r,r,r,r)}}
 A.aFk.prototype={
-$1(a){return a},
+$1(a){return this.a.w.d=a},
 $S:12}
 A.aFl.prototype={
-$1(a){return this.a.e=a},
+$1(a){return this.a.w.b=a},
 $S:12}
 A.aFm.prototype={
-$1(a){return a},
+$1(a){return this.a.w.e=a},
 $S:12}
 A.aFn.prototype={
 $3(a,b,c){var s=null
